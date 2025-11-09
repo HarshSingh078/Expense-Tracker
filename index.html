@@ -12,8 +12,48 @@
         </center>
         <div class="container">
             <h4>
-
+                Current Balance
             </h4>
+            <h1 id="Balance">$0.00</h1>
+
+            <div class="inc_exp-container">
+                <div>
+                    <h4>
+                        Amount Credited
+                    </h4>
+                    <p id="money-plus" class="money-plus">+$0.00</p>
+                </div>
+
+                <div>
+                    <h4>Amount Deducted</h4>
+                    <p id="money-minus" class="money-minus">-$0.00</p>
+                </div>
+            </div>
+
+            <h3>Add New Transaction</h3>
+
+            <form action="" id="form">
+                <div class="form-control">
+                    <label for="text">Transaction Subject</label>
+                    <input type="text" placeholder="Enter the transaction subject..." id="text">
+                </div>
+                <div class="form-control">
+                    <label for="income-text">Amount Credited</label>
+                    <input type="number" placeholder="Enter the Amount Credited..." id="income-text">
+                </div>
+                <div class="form-control">
+                    <label for="expense-text">Amount Deducted</label>
+                    <input type="number" placeholder="Enter the Amount Deducted..." id="expense-text">
+                </div>
+
+
+                <h3>Transactions</h3>
+                <ul id="list" class="list">
+
+                </ul>
+            </form>
+            
+
         </div>
 </body>
 </html>
